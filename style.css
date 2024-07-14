@@ -1,10 +1,10 @@
-.project-card{
-    height: 23rem; 
+.project-card {
+    height: 100%; 
     display: flex;
     flex-direction: column;
 }
 
-.project-card-body{
+.project-card-body {
     flex: 1;
     display: flex;
     flex-direction: column;
@@ -13,9 +13,10 @@
     padding: 0.5rem;
 }
 
-.github-corner:hover .octo-arm{
-    animation:octocat-wave 560ms ease-in-out
+.github-corner:hover .octo-arm {
+    animation: octocat-wave 560ms ease-in-out;
 }
+
 @keyframes octocat-wave{
     0%,100%{
         transform:rotate(0)
